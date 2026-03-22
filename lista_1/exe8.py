@@ -1,0 +1,10 @@
+'''
+Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto.
+Exiba o valor do desconto e o preço a pagar.
+'''
+preco = float(input('Digite o preço da mercadoria: '))
+perce_descon = float(input('Digite o percentual do desconto: '))
+
+desconto = (perce_descon * preco) / 100
+novo = preco - desconto
+print('O desconto vale: %3.1f e o novo preço é: %3.1f' % (desconto, novo))
