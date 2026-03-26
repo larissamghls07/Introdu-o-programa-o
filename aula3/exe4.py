@@ -9,16 +9,13 @@ if salario <= 2428.80:
   print(f'Não há desconto!')
 else:
   if salario <= 2826.65:
-    desconto = 0.075 * salario 
-    print(f'O desconto será de {desconto}')
+    desconto = 0.075 * salario
   else:
     if salario <= 3751.05:
       desconto = 0.15 * salario
-      print(f'O desconto será de {desconto}')
     else:
       if salario <= 4664.88:
         desconto = 0.225 * salario
-        print(f'O desconto será de {desconto}')
       else:
         desconto = 0.275 * salario
-        print(f'O desconto será de {desconto}')
+print(f'O desconto será de {desconto}')
