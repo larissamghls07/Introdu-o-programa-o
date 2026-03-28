@@ -22,4 +22,5 @@ else:
             if tipo == 4:
                 preco = 1.1 * preco
 
-print(f'O preço alinhado à forma de pagamento: R${preco}')
+if 0 < tipo < 5:
+    print(f'O preço alinhado à forma de pagamento: R${preco}')
