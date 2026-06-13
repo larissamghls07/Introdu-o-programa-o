@@ -9,6 +9,7 @@ qtdiguais, primeirodig, segundodig, soma1, soma2, primeiro = 0, 0, 0, 0, 0, 0
 while True:
     cpf = input(f'Informe seu CPF: ')
     if (len(cpf)) != 11:
+        print(f'Informe um CPF válido.')
         break
     else:
         #começa o teste de verificação de números iguais 
